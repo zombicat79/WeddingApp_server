@@ -12,36 +12,48 @@ authRouter.post('/login', (req, res, next) => {
     if (!username || !password) {
         switch(language) {
             case "english":
-                res.status().json({ message: "" });
+                res.json({ message: "Please fill in all the required fields with your attendee credentials." }).status(401);
                 break;
             case "spanish":
-                res.status().json({ message: "" });
+                res.json({ message: "Por favor, rellena todos los campos necesarios con tus credenciales de invitado." }).status(401);
                 break;
             default:
-                res.status().json({ message: "" });
+                res.json({ message: "Si us plau, emplena tots els camps amb les teves credencials de convidat." }).status(401);
         };
         return; 
     }
 
-    User.find({ username })
+    User.findOne({ username })
         .then((user) => {
             if(!user) {
                 switch(language) {
                     case "english":
-                        res.status().json({ message: "" });
+                        res.json({ message: "The username you provided doesn't exist. Please check again." }).status(404);
                         break;
                     case "spanish":
-                        res.status().json({ message: "" });
+                        res.json({ message: "El usuario que has introducido no existe. Por favor, comprueba otra vez." }).status(404);
                         break;
                     default:
-                        res.status().json({ message: "" });
+                        res.json({ message: "L'usuari que has introduït no existeix. Si us plau, comprova-ho de nou." }).status(404);
                 };
             }
             else {
-                const passwordCorrect = bcrypt.compareSync(password, user.password);
-                if (passwordCorrect) {
+                // const passwordCorrect = bcrypt.compareSync(password, user.password);
+                if (password === user.password) {
                     req.session.currentUser = user;
-                    res.status().json(req.session.currentUser);
+                    res.status(200).json(req.session.currentUser);
+                }
+                else {
+                    switch(language) {
+                        case "english":
+                            res.json({ message: "The password you provided is incorrect. Please try again." }).status(404);
+                            break;
+                        case "spanish":
+                            res.json({ message: "La contraseña que has introducido es incorrecta. Por favor, inténtalo de nuevo." }).status(404);
+                            break;
+                        default:
+                            res.json({ message: "La contrasenya que has introduït no és correcta. Si us plau, prova-ho un altre cop." }).status(404);
+                    };
                 }
             }
         })
