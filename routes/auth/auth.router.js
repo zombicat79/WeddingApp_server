@@ -12,10 +12,10 @@ authRouter.post('/login', (req, res, next) => {
     if (!username || !password) {
         switch(language) {
             case "english":
-                res.json({ message: "Please fill in all the required fields with your attendee credentials." }).status(401);
+                res.json({ message: "Please fill in all the fields with your attendee credentials." }).status(401);
                 break;
             case "spanish":
-                res.json({ message: "Por favor, rellena todos los campos necesarios con tus credenciales de invitado." }).status(401);
+                res.json({ message: "Por favor, rellena todos los campos con tus credenciales de invitado." }).status(401);
                 break;
             default:
                 res.json({ message: "Si us plau, emplena tots els camps amb les teves credencials de convidat." }).status(401);
@@ -34,7 +34,7 @@ authRouter.post('/login', (req, res, next) => {
                         res.json({ message: "El usuario que has introducido no existe. Por favor, comprueba otra vez." }).status(404);
                         break;
                     default:
-                        res.json({ message: "L'usuari que has introduït no existeix. Si us plau, comprova-ho de nou." }).status(404);
+                        res.json({ message: "L'usuari que has introduït no existeix. Si us plau, prova un altre cop." }).status(404);
                 };
             }
             else {
@@ -52,7 +52,7 @@ authRouter.post('/login', (req, res, next) => {
                             res.json({ message: "La contraseña que has introducido es incorrecta. Por favor, inténtalo de nuevo." }).status(404);
                             break;
                         default:
-                            res.json({ message: "La contrasenya que has introduït no és correcta. Si us plau, prova-ho un altre cop." }).status(404);
+                            res.json({ message: "La contrasenya que has introduït no és correcta. Si us plau, prova un altre cop." }).status(404);
                     };
                 }
             }
@@ -60,12 +60,22 @@ authRouter.post('/login', (req, res, next) => {
         .catch((err) => next(err));
 });
 
+authRouter.get('/me', (req, res, next) => {
+    if (req.session) {
+        res.status(200).json(req.session.currentUser);
+    }
+    else {
+        res.status(401).redirect("/");
+    }
+});
+
 authRouter.post('/edit', (req, res, next) => {
 
 });
 
 authRouter.get('/logout', (req, res, next) => {
-
+    req.session.destroy();
+    res.status(200).redirect("/");
 });
 
 module.exports = authRouter;

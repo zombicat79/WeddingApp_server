@@ -6,10 +6,23 @@ const User = require('./../models/User.model');
 const Question = require('./../models/Question.model');
 const Product = require('./../models/Product.model');
 
-const users = [{
-    username: "testuser1",
-    password: "test"
-}];
+const users = [
+    {
+        username: "testsubject1",
+        password: "test",
+        language: "english"
+    },
+    {
+        username: "paiodeprova1",
+        password: "prova",
+        language: "catalan"
+    },
+    {
+        username: "tiodeprueba1",
+        password: "prueba",
+        language: "spanish"
+    }
+];
 
 mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
