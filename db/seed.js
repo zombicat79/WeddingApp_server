@@ -6,6 +6,8 @@ const User = require('./../models/User.model');
 const Question = require('./../models/Question.model');
 const Product = require('./../models/Product.model');
 
+const productData = require("./../public/js/product.data");
+
 const users = [
     {
         username: "testsubject1",
@@ -36,5 +38,6 @@ mongoose.connect(process.env.MONGODB_URI, {
         return pr;
     })
     .then(() => User.create(users))
-    .then((newUsers) => mongoose.connection.close())
+    .then(() => Product.create(productData))
+    .then(() => mongoose.connection.close())
     .catch((err) => console.log("Error connecting to Mongo", err));

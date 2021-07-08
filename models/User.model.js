@@ -3,14 +3,15 @@ const { Schema, model } = require("mongoose");
 const userSchema = new Schema({
   username: String,
   password: String,
+  casualName: String,
   language: String,
   correctAnswers: {
     total: Number,
-    questions: Array
+    questions: [{ type: Schema.Types.ObjectId, ref: "Question" }]
   },
   points: Number,
-  productsAcquired: Array,
-  productsInCart: Array,
+  productsAcquired: [{ type: Schema.Types.ObjectId, ref: "Product"}],
+  productsInCart: [{ type: Schema.Types.ObjectId, ref: "Product"}],
   sumSpent: Number,
   music: Array,
   allergies: Array,
