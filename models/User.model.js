@@ -11,10 +11,12 @@ const userSchema = new Schema({
   },
   points: Number,
   productsAcquired: [{ type: Schema.Types.ObjectId, ref: "Product"}],
-  productsInCart: [{ type: Schema.Types.ObjectId, ref: "Product"}],
+  productsInCart: Array,
   sumSpent: Number,
   music: Array,
   allergies: Array,
+  kids: Array,
+  attending: Boolean,
   lodging: {
     need: Boolean,
     nights: Number

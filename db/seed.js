@@ -7,24 +7,7 @@ const Question = require('./../models/Question.model');
 const Product = require('./../models/Product.model');
 
 const productData = require("./../public/js/product.data");
-
-const users = [
-    {
-        username: "testsubject1",
-        password: "test",
-        language: "english"
-    },
-    {
-        username: "paiodeprova1",
-        password: "prova",
-        language: "catalan"
-    },
-    {
-        username: "tiodeprueba1",
-        password: "prueba",
-        language: "spanish"
-    }
-];
+const userData = require("./../public/js/user.data");
 
 mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
@@ -37,7 +20,7 @@ mongoose.connect(process.env.MONGODB_URI, {
         console.log("Connected to Mongo! Seeding initial data!");
         return pr;
     })
-    .then(() => User.create(users))
+    .then(() => User.create(userData))
     .then(() => Product.create(productData))
     .then(() => mongoose.connection.close())
     .catch((err) => console.log("Error connecting to Mongo", err));
