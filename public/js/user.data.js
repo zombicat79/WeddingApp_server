@@ -4,6 +4,7 @@ const userData = [
         password: "test",
         casualName: "Beta Tester",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -26,6 +27,7 @@ const userData = [
         password: "test",
         casualName: "Beta Tester",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -48,6 +50,7 @@ const userData = [
         password: "test",
         casualName: "Beta Tester",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -70,6 +73,7 @@ const userData = [
         password: "11062022",
         casualName: "Alba",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -92,6 +96,7 @@ const userData = [
         password: "11062022",
         casualName: "Alba",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -114,6 +119,7 @@ const userData = [
         password: "11062022",
         casualName: "Albert",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -136,6 +142,7 @@ const userData = [
         password: "11062022",
         casualName: "Albert",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -158,6 +165,7 @@ const userData = [
         password: "11062022",
         casualName: "Albert",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -180,6 +188,7 @@ const userData = [
         password: "11062022",
         casualName: "Alex",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -202,6 +211,7 @@ const userData = [
         password: "11062022",
         casualName: "Alexandra",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -224,6 +234,7 @@ const userData = [
         password: "11062022",
         casualName: "Alexia",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -246,6 +257,7 @@ const userData = [
         password: "11062022",
         casualName: "Asensi",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -268,6 +280,7 @@ const userData = [
         password: "11062022",
         casualName: "Bea",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -290,6 +303,7 @@ const userData = [
         password: "11062022",
         casualName: "Bing",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -312,6 +326,7 @@ const userData = [
         password: "11062022",
         casualName: "Carlos",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -334,6 +349,7 @@ const userData = [
         password: "11062022",
         casualName: "Carlos",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -356,6 +372,7 @@ const userData = [
         password: "11062022",
         casualName: "Carme",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -378,6 +395,7 @@ const userData = [
         password: "11062022",
         casualName: "Carmen",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -400,6 +418,7 @@ const userData = [
         password: "11062022",
         casualName: "Cisco",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -422,6 +441,7 @@ const userData = [
         password: "11062022",
         casualName: "Cris",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -444,6 +464,7 @@ const userData = [
         password: "11062022",
         casualName: "Cristina",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -466,6 +487,7 @@ const userData = [
         password: "11062022",
         casualName: "Dani",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -488,6 +510,7 @@ const userData = [
         password: "11062022",
         casualName: "Dani",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -510,6 +533,7 @@ const userData = [
         password: "11062022",
         casualName: "David",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -532,6 +556,7 @@ const userData = [
         password: "11062022",
         casualName: "Deyanira",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -554,6 +579,7 @@ const userData = [
         password: "11062022",
         casualName: "Diego",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -576,6 +602,7 @@ const userData = [
         password: "11062022",
         casualName: "Dioni",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -594,10 +621,11 @@ const userData = [
         }
     },
     {
-        username: "Stefi_112",
+        username: "Estefi_112",
         password: "11062022",
         casualName: "Estefanía",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -620,6 +648,7 @@ const userData = [
         password: "11062022",
         casualName: "Fedra",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -642,6 +671,7 @@ const userData = [
         password: "11062022",
         casualName: "Francesc",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -664,6 +694,7 @@ const userData = [
         password: "11062022",
         casualName: "Galya",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -686,6 +717,7 @@ const userData = [
         password: "11062022",
         casualName: "Giuliano",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -708,6 +740,7 @@ const userData = [
         password: "11062022",
         casualName: "Guillem",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -730,6 +763,7 @@ const userData = [
         password: "11062022",
         casualName: "Helena",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -752,6 +786,7 @@ const userData = [
         password: "11062022",
         casualName: "Helena",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -774,6 +809,7 @@ const userData = [
         password: "11062022",
         casualName: "Ilya",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -796,6 +832,7 @@ const userData = [
         password: "11062022",
         casualName: "Ipanema",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -818,6 +855,7 @@ const userData = [
         password: "11062022",
         casualName: "Isabel",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -840,6 +878,7 @@ const userData = [
         password: "11062022",
         casualName: "Jessica",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -862,6 +901,7 @@ const userData = [
         password: "11062022",
         casualName: "Joan",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -884,6 +924,7 @@ const userData = [
         password: "11062022",
         casualName: "Jordi",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -906,6 +947,7 @@ const userData = [
         password: "11062022",
         casualName: "Jordi",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -928,6 +970,7 @@ const userData = [
         password: "11062022",
         casualName: "Josep",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -950,6 +993,7 @@ const userData = [
         password: "11062022",
         casualName: "Josep",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -972,6 +1016,7 @@ const userData = [
         password: "11062022",
         casualName: "Juliane",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -994,6 +1039,7 @@ const userData = [
         password: "11062022",
         casualName: "Laura",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1016,6 +1062,7 @@ const userData = [
         password: "11062022",
         casualName: "Laura",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1038,6 +1085,7 @@ const userData = [
         password: "11062022",
         casualName: "Laura",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1060,6 +1108,7 @@ const userData = [
         password: "11062022",
         casualName: "Laura",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1082,6 +1131,7 @@ const userData = [
         password: "11062022",
         casualName: "Lídia",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1104,6 +1154,7 @@ const userData = [
         password: "11062022",
         casualName: "Lorena",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1126,6 +1177,7 @@ const userData = [
         password: "11062022",
         casualName: "Luisa",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1148,6 +1200,7 @@ const userData = [
         password: "11062022",
         casualName: "Marc",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1170,6 +1223,7 @@ const userData = [
         password: "11062022",
         casualName: "Marco",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1192,6 +1246,7 @@ const userData = [
         password: "11062022",
         casualName: "Marlene",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1214,6 +1269,7 @@ const userData = [
         password: "11062022",
         casualName: "Merche",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1236,6 +1292,7 @@ const userData = [
         password: "11062022",
         casualName: "Mireia",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1258,6 +1315,7 @@ const userData = [
         password: "11062022",
         casualName: "Òscar",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1280,6 +1338,7 @@ const userData = [
         password: "11062022",
         casualName: "Pedro",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1302,6 +1361,7 @@ const userData = [
         password: "11062022",
         casualName: "Raquel",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1324,6 +1384,7 @@ const userData = [
         password: "11062022",
         casualName: "Roger",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1346,6 +1407,7 @@ const userData = [
         password: "11062022",
         casualName: "Ruby",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1368,6 +1430,7 @@ const userData = [
         password: "11062022",
         casualName: "Ryan",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1390,6 +1453,7 @@ const userData = [
         password: "11062022",
         casualName: "Sergi",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1412,6 +1476,7 @@ const userData = [
         password: "11062022",
         casualName: "Sergio",
         language: "spanish",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1434,6 +1499,7 @@ const userData = [
         password: "11062022",
         casualName: "Toni",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1456,6 +1522,7 @@ const userData = [
         password: "11062022",
         casualName: "Vaida",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1478,6 +1545,7 @@ const userData = [
         password: "11062022",
         casualName: "Vicenç",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1500,6 +1568,7 @@ const userData = [
         password: "11062022",
         casualName: "Victoria Elena",
         language: "english",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []
@@ -1522,6 +1591,7 @@ const userData = [
         password: "11062022",
         casualName: "Xavi",
         language: "catalan",
+        logins: 0,
         correctAnswers: {
             total: 0,
             questions: []

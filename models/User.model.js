@@ -5,13 +5,14 @@ const userSchema = new Schema({
   password: String,
   casualName: String,
   language: String,
+  logins: Number,
   correctAnswers: {
     total: Number,
     questions: [{ type: Schema.Types.ObjectId, ref: "Question" }]
   },
   points: Number,
   productsAcquired: [{ type: Schema.Types.ObjectId, ref: "Product"}],
-  productsInCart: Array,
+  productsInCart: Schema.Types.Mixed,
   sumSpent: Number,
   music: Array,
   allergies: Array,
@@ -20,7 +21,8 @@ const userSchema = new Schema({
   lodging: {
     need: Boolean,
     nights: Number
-  }
+  },
+
 });
 
 const User = model("User", userSchema);

@@ -1,9 +1,6 @@
 const express = require('express');
 const authRouter = express.Router();
 
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
-
 const User = require('./../../models/User.model');
 
 authRouter.post('/login', (req, res, next) => {
@@ -38,7 +35,6 @@ authRouter.post('/login', (req, res, next) => {
                 };
             }
             else {
-                // const passwordCorrect = bcrypt.compareSync(password, user.password);
                 if (password === user.password) {
                     req.session.currentUser = user;
                     res.status(200).json(req.session.currentUser);
@@ -61,8 +57,10 @@ authRouter.post('/login', (req, res, next) => {
 });
 
 authRouter.get('/me', (req, res, next) => {
-    if (req.session) {
-        res.status(200).json(req.session.currentUser);
+    if (req.session.currentUser) {
+        User.findById(req.session.currentUser._id)
+            .then((currentUser) => res.status(200).json(currentUser))
+            .catch((err) => next(err));
     }
     else {
         res.status(401).redirect("/");
