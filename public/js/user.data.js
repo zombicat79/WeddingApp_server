@@ -28,7 +28,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Bit", "Bot"],
+        kids: [{name: "Bit", attending: true}, {name: "Bot", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -64,7 +64,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Bit", "Bot"],
+        kids: [{name: "Bit", attending: true}, {name: "Bot", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -100,7 +100,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Bit", "Bot"],
+        kids: [{name: "Bit", attending: true}, {name: "Bot", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -136,7 +136,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -172,7 +172,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -208,7 +208,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Emma"],
+        kids: [{name: "Emma", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -244,7 +244,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -280,7 +280,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Arizona"],
+        kids: [{name: "Arizona", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -316,7 +316,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -352,7 +352,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -388,7 +388,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Martina"],
+        kids: [{name: "Martina", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -424,7 +424,43 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
+        attending: true,
+        lodging: {
+            need: false,
+            nights: 0
+        }
+    },
+    {
+        username: "AHonore",
+        password: "11062022",
+        casualName: "Aurélie",
+        language: "english",
+        logins: 0,
+        correctAnswers: {
+            total: 0,
+            questions: []
+        },
+        points: 0,
+        productsAcquired: [],
+        productsInCart: {
+            "Moontrip": 0,
+            "Magically plentiful fridge": 0,
+            "Time machine": 0,
+            "Neverending luck": 0,
+            "Pet unicorn": 0,
+            "Helper multitasking robot": 0,
+            "Eternal youth": 0,
+            "Medieval castle": 0,
+            "Exemplary pre-educated child": 0,
+            "Thought player & recorder": 0,
+            "Private paradise beach": 0,
+            '"All-in-one" personal trainer': 0
+        },
+        sumSpent: 0,
+        music: [],
+        allergies: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -460,7 +496,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -496,7 +532,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -532,7 +568,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -568,7 +604,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -604,7 +640,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -640,7 +676,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -676,7 +712,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Martina"],
+        kids: [{name: "Martina", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -712,7 +748,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -748,7 +784,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -784,7 +820,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -820,7 +856,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -856,7 +892,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -892,7 +928,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -900,7 +936,7 @@ const userData = [
         }
     },
     {
-        username: "diego",
+        username: "Diego",
         password: "11062022",
         casualName: "Diego",
         language: "spanish",
@@ -928,7 +964,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -964,7 +1000,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1000,7 +1036,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Ona"],
+        kids: [{name: "Ona", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -1036,7 +1072,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1072,7 +1108,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1108,7 +1144,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1144,7 +1180,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Emmi", "Alba"],
+        kids: [{name: "Emmi", attending: true}, {name: "Alba", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -1180,7 +1216,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1216,7 +1252,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Paula", "Carla"],
+        kids: [{name: "Paula", attending: true}, {name: "Carla", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -1252,7 +1288,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1288,7 +1324,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1324,7 +1360,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Arizona"],
+        kids: [{name: "Arizona", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -1360,7 +1396,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1396,7 +1432,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1432,7 +1468,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1468,7 +1504,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1504,7 +1540,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1540,7 +1576,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Ona"],
+        kids: [{name: "Ona", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -1576,7 +1612,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1612,7 +1648,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Emmi", "Alba"],
+        kids: [{name: "Emmi", attending: true}, {name: "Alba", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -1648,7 +1684,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1684,7 +1720,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Ferran"],
+        kids: [{name: "Ferran", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -1720,7 +1756,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1756,7 +1792,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1792,7 +1828,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1828,7 +1864,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1864,7 +1900,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1900,7 +1936,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1936,7 +1972,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1972,7 +2008,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -1982,7 +2018,7 @@ const userData = [
     {
         username: "Padrina",
         password: "11062022",
-        casualName: "Merche",
+        casualName: "Mercedes",
         language: "spanish",
         logins: 0,
         correctAnswers: {
@@ -2008,7 +2044,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2044,7 +2080,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Emma"],
+        kids: [{name: "Emma", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -2080,7 +2116,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2116,7 +2152,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2152,7 +2188,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2188,7 +2224,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Ferran"],
+        kids: [{name: "Ferran", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -2224,7 +2260,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2260,7 +2296,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2296,7 +2332,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2332,7 +2368,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2368,7 +2404,43 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
+        attending: true,
+        lodging: {
+            need: false,
+            nights: 0
+        }
+    },
+    {
+        username: "UCalderon",
+        password: "11062022",
+        casualName: "Úrsula",
+        language: "spanish",
+        logins: 0,
+        correctAnswers: {
+            total: 0,
+            questions: []
+        },
+        points: 0,
+        productsAcquired: [],
+        productsInCart: {
+            "Moontrip": 0,
+            "Magically plentiful fridge": 0,
+            "Time machine": 0,
+            "Neverending luck": 0,
+            "Pet unicorn": 0,
+            "Helper multitasking robot": 0,
+            "Eternal youth": 0,
+            "Medieval castle": 0,
+            "Exemplary pre-educated child": 0,
+            "Thought player & recorder": 0,
+            "Private paradise beach": 0,
+            '"All-in-one" personal trainer': 0
+        },
+        sumSpent: 0,
+        music: [],
+        allergies: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2404,7 +2476,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2440,7 +2512,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: ["Paula", "Carla"],
+        kids: [{name: "Paula", attending: true}, {name: "Carla", attending: true}],
         attending: true,
         lodging: {
             need: false,
@@ -2476,7 +2548,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,
@@ -2512,7 +2584,7 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [],
+        kids: null,
         attending: true,
         lodging: {
             need: false,

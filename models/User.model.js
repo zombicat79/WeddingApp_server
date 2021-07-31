@@ -16,7 +16,7 @@ const userSchema = new Schema({
   sumSpent: Number,
   music: Array,
   allergies: Array,
-  kids: Array,
+  kids: Schema.Types.Mixed,
   attending: Boolean,
   lodging: {
     need: Boolean,
