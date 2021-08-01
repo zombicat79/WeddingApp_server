@@ -18,11 +18,7 @@ const userSchema = new Schema({
   allergies: Array,
   kids: Schema.Types.Mixed,
   attending: Boolean,
-  lodging: {
-    need: Boolean,
-    nights: Number
-  },
-
+  needsLodging: Boolean
 });
 
 const User = model("User", userSchema);

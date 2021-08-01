@@ -28,12 +28,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Bit", attending: true}, {name: "Bot", attending: true}],
+        kids: [{name: "Bit", attending: false}, {name: "Bot", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "test_esp",
@@ -64,12 +61,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Bit", attending: true}, {name: "Bot", attending: true}],
+        kids: [{name: "Bit", attending: false}, {name: "Bot", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "test_eng",
@@ -100,12 +94,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Bit", attending: true}, {name: "Bot", attending: true}],
+        kids: [{name: "Bit", attending: false}, {name: "Bot", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "AGasco",
@@ -138,10 +129,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "ALopez",
@@ -174,10 +162,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "APrat",
@@ -208,12 +193,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Emma", attending: true}],
+        kids: [{name: "Emma", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "AMartinez",
@@ -246,10 +228,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Braveheart",
@@ -280,12 +259,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Arizona", attending: true}],
+        kids: [{name: "Arizona", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "De_La_Faith",
@@ -318,10 +294,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "AParreu",
@@ -354,10 +327,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Manresa01",
@@ -388,12 +358,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Martina", attending: true}],
+        kids: [{name: "Martina", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Golfa_001",
@@ -426,10 +393,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "AHonore",
@@ -462,10 +426,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Beatrice",
@@ -498,10 +459,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "NiHao_Bing",
@@ -534,10 +492,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Golfa_002",
@@ -570,10 +525,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Musculman_DH",
@@ -606,10 +558,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "CCamacho",
@@ -642,10 +591,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Mama_C",
@@ -678,10 +624,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "CFabregat",
@@ -712,12 +655,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Martina", attending: true}],
+        kids: [{name: "Martina", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "CGarcia",
@@ -750,10 +690,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Solet91",
@@ -786,10 +723,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Castejon_Daniyl",
@@ -822,10 +756,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "DZaro",
@@ -858,10 +789,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Ombengue",
@@ -894,10 +822,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Deya",
@@ -930,10 +855,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Diego",
@@ -966,10 +888,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Dioni",
@@ -1002,10 +921,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Estefi_112",
@@ -1036,12 +952,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Ona", attending: true}],
+        kids: [{name: "Ona", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Fedra",
@@ -1074,10 +987,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Papa_D",
@@ -1110,10 +1020,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "G_Dyezhina",
@@ -1146,10 +1053,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Giuliano",
@@ -1180,12 +1084,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Emmi", attending: true}, {name: "Alba", attending: true}],
+        kids: [{name: "Emmi", attending: false}, {name: "Alba", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Bootankah",
@@ -1218,10 +1119,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "HSala",
@@ -1252,12 +1150,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Paula", attending: true}, {name: "Carla", attending: true}],
+        kids: [{name: "Paula", attending: false}, {name: "Carla", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "HPages",
@@ -1290,10 +1185,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Castejon_Ilya",
@@ -1326,10 +1218,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Ipa",
@@ -1360,12 +1249,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Arizona", attending: true}],
+        kids: [{name: "Arizona", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Mama_D",
@@ -1398,10 +1284,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "JGavalda",
@@ -1434,10 +1317,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Pudi-pudi",
@@ -1470,10 +1350,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "BigBro_D",
@@ -1506,10 +1383,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "JordiR",
@@ -1542,10 +1416,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "MiddleBro_C",
@@ -1576,12 +1447,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Ona", attending: true}],
+        kids: [{name: "Ona", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "JAbello",
@@ -1614,10 +1482,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "JLippmann",
@@ -1648,12 +1513,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Emmi", attending: true}, {name: "Alba", attending: true}],
+        kids: [{name: "Emmi", attending: false}, {name: "Alba", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "LRibe",
@@ -1686,10 +1548,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Laura01",
@@ -1720,12 +1579,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Ferran", attending: true}],
+        kids: [{name: "Ferran", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Laura_ITA",
@@ -1758,10 +1614,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "LNavarro",
@@ -1794,10 +1647,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "LVives",
@@ -1830,10 +1680,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "LBonet",
@@ -1866,10 +1713,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Luisa",
@@ -1902,10 +1746,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "MarcSu",
@@ -1938,10 +1779,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Marco_ITA",
@@ -1974,10 +1812,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Marlene",
@@ -2010,10 +1845,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Padrina",
@@ -2046,10 +1878,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "MCalvet",
@@ -2080,12 +1909,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Emma", attending: true}],
+        kids: [{name: "Emma", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "OMoreno",
@@ -2118,10 +1944,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Pedro",
@@ -2154,10 +1977,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "RAngles",
@@ -2190,10 +2010,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "Ruchel",
@@ -2224,12 +2041,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Ferran", attending: true}],
+        kids: [{name: "Ferran", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "RubyUK",
@@ -2262,10 +2076,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "RyanUK",
@@ -2298,10 +2109,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "SergiG",
@@ -2334,10 +2142,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "SGil",
@@ -2370,10 +2175,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "MagicToni",
@@ -2404,12 +2206,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: null,
+        kids: [{name: "Hugo", attending: false}, {name: "Nico", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "UCalderon",
@@ -2442,10 +2241,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "VPak91",
@@ -2478,10 +2274,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "VFernandez",
@@ -2512,12 +2305,9 @@ const userData = [
         sumSpent: 0,
         music: [],
         allergies: [],
-        kids: [{name: "Paula", attending: true}, {name: "Carla", attending: true}],
+        kids: [{name: "Paula", attending: false}, {name: "Carla", attending: false}],
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "VElena",
@@ -2550,10 +2340,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     },
     {
         username: "MiddleBro_D",
@@ -2586,10 +2373,7 @@ const userData = [
         allergies: [],
         kids: null,
         attending: true,
-        lodging: {
-            need: false,
-            nights: 0
-        }
+        needsLodging: false
     }
 ]
 

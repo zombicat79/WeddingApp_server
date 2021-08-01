@@ -9,7 +9,7 @@ userRouter.put("/:id/updateUser", (req, res, next) => {
 
     switch(true) {
         case property === "lodging":
-            User.findByIdAndUpdate(id, { lodging: {need: value, nights: 1} })
+            User.findByIdAndUpdate(id, {needsLodging: value})
                 .then(() => {
                     return User.findById(id);
                 })
@@ -26,6 +26,29 @@ userRouter.put("/:id/updateUser", (req, res, next) => {
                     else {
                         return User.findByIdAndUpdate(id, {$push: {allergies: value }});
                     }
+                }).then(() => {
+                    return User.findById(id);
+                })
+                .then((updatedUser) => res.status(200).json(updatedUser))
+                .catch((err) => next(err));
+            break;
+        case property === "kids":
+            User.findById(id)
+                .then((user) => {
+                    const { kids } = user;
+                    for (const obj of kids) {
+                        if (obj.name === value) {
+                            if (obj.attending === true) {
+                                return User.findByIdAndUpdate(id, {$set: {"kids.$[element].attending": false}}, {arrayFilters: [{ "element.name": value }]}); 
+                            }
+                            else {
+                                return User.findByIdAndUpdate(id, {$set: {"kids.$[element].attending": true}}, {arrayFilters: [{ "element.name": value }]});
+                            }
+                        }
+                    }
+                })
+                .then(() => {
+                    return User.findById(id);
                 })
                 .then((updatedUser) => res.status(200).json(updatedUser))
                 .catch((err) => next(err));
