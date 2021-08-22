@@ -5,6 +5,7 @@ const userData = [
         casualName: "Beta Tester",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -38,6 +39,7 @@ const userData = [
         casualName: "Beta Tester",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -71,6 +73,7 @@ const userData = [
         casualName: "Beta Tester",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -104,6 +107,7 @@ const userData = [
         casualName: "Alba",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -137,6 +141,7 @@ const userData = [
         casualName: "Alba",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -170,6 +175,7 @@ const userData = [
         casualName: "Albert",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -203,6 +209,7 @@ const userData = [
         casualName: "Albert",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -236,6 +243,7 @@ const userData = [
         casualName: "Albert",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -269,6 +277,7 @@ const userData = [
         casualName: "Alex",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -302,6 +311,7 @@ const userData = [
         casualName: "Alexandra",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -335,6 +345,7 @@ const userData = [
         casualName: "Alexia",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -368,6 +379,7 @@ const userData = [
         casualName: "Asensi",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -401,6 +413,7 @@ const userData = [
         casualName: "Aurélie",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -434,6 +447,7 @@ const userData = [
         casualName: "Bea",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -467,6 +481,7 @@ const userData = [
         casualName: "Bing",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -500,6 +515,7 @@ const userData = [
         casualName: "Carlos",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -533,6 +549,7 @@ const userData = [
         casualName: "Carlos",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -566,6 +583,7 @@ const userData = [
         casualName: "Carme",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -599,6 +617,7 @@ const userData = [
         casualName: "Carmen",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -632,6 +651,7 @@ const userData = [
         casualName: "Cisco",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -665,6 +685,7 @@ const userData = [
         casualName: "Cris",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -698,6 +719,7 @@ const userData = [
         casualName: "Cristina",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -731,6 +753,7 @@ const userData = [
         casualName: "Dani",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -764,6 +787,7 @@ const userData = [
         casualName: "Dani",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -797,6 +821,7 @@ const userData = [
         casualName: "David",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -830,6 +855,7 @@ const userData = [
         casualName: "Deyanira",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -863,6 +889,7 @@ const userData = [
         casualName: "Diego",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -896,6 +923,7 @@ const userData = [
         casualName: "Dioni",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -929,6 +957,7 @@ const userData = [
         casualName: "Estefanía",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -962,6 +991,7 @@ const userData = [
         casualName: "Fedra",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -995,6 +1025,7 @@ const userData = [
         casualName: "Francesc",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1028,6 +1059,7 @@ const userData = [
         casualName: "Galya",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1061,6 +1093,7 @@ const userData = [
         casualName: "Giuliano",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1094,6 +1127,7 @@ const userData = [
         casualName: "Guillem",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1127,6 +1161,7 @@ const userData = [
         casualName: "Helena",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1160,6 +1195,7 @@ const userData = [
         casualName: "Helena",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1193,6 +1229,7 @@ const userData = [
         casualName: "Ilya",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1226,6 +1263,7 @@ const userData = [
         casualName: "Ipanema",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1259,6 +1297,7 @@ const userData = [
         casualName: "Isabel",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1292,6 +1331,7 @@ const userData = [
         casualName: "Jessica",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1325,6 +1365,7 @@ const userData = [
         casualName: "Joan",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1358,6 +1399,7 @@ const userData = [
         casualName: "Jordi",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1391,6 +1433,7 @@ const userData = [
         casualName: "Jordi",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1424,6 +1467,7 @@ const userData = [
         casualName: "Josep",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1457,6 +1501,7 @@ const userData = [
         casualName: "Josep",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1490,6 +1535,7 @@ const userData = [
         casualName: "Juliane",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1523,6 +1569,7 @@ const userData = [
         casualName: "Laura",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1556,6 +1603,7 @@ const userData = [
         casualName: "Laura",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1589,6 +1637,7 @@ const userData = [
         casualName: "Laura",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1622,6 +1671,7 @@ const userData = [
         casualName: "Laura",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1655,6 +1705,7 @@ const userData = [
         casualName: "Lídia",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1688,6 +1739,7 @@ const userData = [
         casualName: "Lorena",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1721,6 +1773,7 @@ const userData = [
         casualName: "Luisa",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1754,6 +1807,7 @@ const userData = [
         casualName: "Marc",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1787,6 +1841,7 @@ const userData = [
         casualName: "Marco",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1820,6 +1875,7 @@ const userData = [
         casualName: "Marlene",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1853,6 +1909,7 @@ const userData = [
         casualName: "Mercedes",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1886,6 +1943,7 @@ const userData = [
         casualName: "Mireia",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1919,6 +1977,7 @@ const userData = [
         casualName: "Òscar",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1952,6 +2011,7 @@ const userData = [
         casualName: "Pedro",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -1985,6 +2045,7 @@ const userData = [
         casualName: "Raquel",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2018,6 +2079,7 @@ const userData = [
         casualName: "Roger",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2051,6 +2113,7 @@ const userData = [
         casualName: "Ruby",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2084,6 +2147,7 @@ const userData = [
         casualName: "Ryan",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2117,6 +2181,7 @@ const userData = [
         casualName: "Sergi",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2150,6 +2215,7 @@ const userData = [
         casualName: "Sergio",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2183,6 +2249,7 @@ const userData = [
         casualName: "Toni",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2216,6 +2283,7 @@ const userData = [
         casualName: "Úrsula",
         language: "spanish",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2249,6 +2317,7 @@ const userData = [
         casualName: "Vaida",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2282,6 +2351,7 @@ const userData = [
         casualName: "Vicenç",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2315,6 +2385,7 @@ const userData = [
         casualName: "Victoria Elena",
         language: "english",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []
@@ -2348,6 +2419,7 @@ const userData = [
         casualName: "Xavi",
         language: "catalan",
         logins: 0,
+        questionPref: "",
         correctAnswers: {
             total: 0,
             questions: []

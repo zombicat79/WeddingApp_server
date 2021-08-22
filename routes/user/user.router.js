@@ -3,6 +3,12 @@ const userRouter = express.Router();
 
 const User = require('./../../models/User.model');
 
+userRouter.get("/getAll", (req, res, next) => {
+    User.find().
+        then((allUsers) => res.status(200).json(allUsers)).
+        catch((err) => next(err));
+})
+
 userRouter.put("/:id/updateUser", (req, res, next) => {
     const { id } = req.params;
     const { property, value } = req.body;

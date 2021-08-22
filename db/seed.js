@@ -8,6 +8,7 @@ const Product = require('./../models/Product.model');
 
 const productData = require("./../public/js/product.data");
 const userData = require("./../public/js/user.data");
+const questionData = require("./../public/js/question.data");
 
 mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
@@ -22,5 +23,6 @@ mongoose.connect(process.env.MONGODB_URI, {
     })
     .then(() => User.create(userData))
     .then(() => Product.create(productData))
+    .then(() => Question.create(questionData))
     .then(() => mongoose.connection.close())
     .catch((err) => console.log("Error connecting to Mongo", err));

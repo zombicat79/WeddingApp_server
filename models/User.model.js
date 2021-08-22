@@ -6,6 +6,7 @@ const userSchema = new Schema({
   casualName: String,
   language: String,
   logins: Number,
+  questionPref: String,
   correctAnswers: {
     total: Number,
     questions: [{ type: Schema.Types.ObjectId, ref: "Question" }]
