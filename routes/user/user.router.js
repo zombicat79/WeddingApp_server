@@ -12,6 +12,9 @@ userRouter.get("/getAll", (req, res, next) => {
 userRouter.put("/:id/updateUser", (req, res, next) => {
     const { id } = req.params;
     const { property, value } = req.body;
+    console.log(id);
+    console.log(property)
+    console.log(value)
 
     switch(true) {
         case property === "lodging":

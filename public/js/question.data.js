@@ -77,17 +77,17 @@ const questionData = [
         possibleAnswers: [
             {
                 cat: "Gos",
-                esp: "Gat",
-                eng: "Fura"
+                esp: "Perro",
+                eng: "Dog"
             },
             {
-                cat: "Perro",
+                cat: "Gat",
                 esp: "Gato",
-                eng: "Hurón" 
+                eng: "Cat" 
             },
             {
-                cat: "Dog",
-                esp: "Cat",
+                cat: "Fura",
+                esp: "Hurón",
                 eng: "Ferret"
             }
         ],
@@ -111,17 +111,17 @@ const questionData = [
         possibleAnswers: [
             {
                 cat: "2",
-                esp: "1",
-                eng: "4"
+                esp: "2",
+                eng: "2"
             },
             {
-                cat: "2",
+                cat: "1",
                 esp: "1",
-                eng: "4" 
+                eng: "1" 
             },
             {
-                cat: "2",
-                esp: "1",
+                cat: "4",
+                esp: "4",
                 eng: "4"
             }
         ],
@@ -145,17 +145,17 @@ const questionData = [
         possibleAnswers: [
             {
                 cat: "Consultoria",
-                esp: "Cocteleria",
-                eng: "Escola"
+                esp: "Consultoría",
+                eng: "Consultancy firm"
             },
             {
-                cat: "Consultoría",
+                cat: "Cocteleria",
                 esp: "Coctelería",
-                eng: "Escuela" 
+                eng: "Cocktail bar" 
             },
             {
-                cat: "Consultancy firm",
-                esp: "Cocktail bar",
+                cat: "Escola",
+                esp: "Escuela",
                 eng: "School"
             }
         ],
@@ -179,17 +179,17 @@ const questionData = [
         possibleAnswers: [
             {
                 cat: "Estats Units",
-                esp: "Cambodja",
-                eng: "Egipte"
+                esp: "Estados Unidos",
+                eng: "USA"
             },
             {
-                cat: "Estados Unidos",
+                cat: "Cambodja",
                 esp: "Camboya",
-                eng: "Egipto" 
+                eng: "Cambodia" 
             },
             {
-                cat: "USA",
-                esp: "Cambodia",
+                cat: "Egipte",
+                esp: "Egipto",
                 eng: "Egypt"
             }
         ],
@@ -281,17 +281,17 @@ const questionData = [
         possibleAnswers: [
             {
                 cat: "7",
-                esp: "9",
-                eng: "4"
+                esp: "7",
+                eng: "7"
             },
             {
-                cat: "7",
+                cat: "9",
                 esp: "9",
-                eng: "4" 
+                eng: "9" 
             },
             {
-                cat: "7",
-                esp: "9",
+                cat: "4",
+                esp: "4",
                 eng: "4"
             }
         ],
@@ -315,17 +315,17 @@ const questionData = [
         possibleAnswers: [
             {
                 cat: "1",
-                esp: "2",
-                eng: "3"
+                esp: "1",
+                eng: "1"
             },
             {
-                cat: "1",
+                cat: "2",
                 esp: "2",
-                eng: "3" 
+                eng: "2" 
             },
             {
-                cat: "1",
-                esp: "2",
+                cat: "3",
+                esp: "3",
                 eng: "3"
             }
         ],
@@ -835,8 +835,8 @@ const questionData = [
             },
             {
                 cat: "Diada Nacional de Catalunya",
-                esp: "",
-                eng: "Workplace"
+                esp: "Diada Nacional de Cataluña",
+                eng: "Catalonia's National Day"
             }
         ],
         intLevel: 3,
