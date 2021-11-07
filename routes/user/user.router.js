@@ -12,9 +12,6 @@ userRouter.get("/getAll", (req, res, next) => {
 userRouter.put("/:id/updateUser", (req, res, next) => {
     const { id } = req.params;
     const { property, value } = req.body;
-    console.log(id);
-    console.log(property)
-    console.log(value)
 
     switch(true) {
         case property === "lodging":
@@ -62,6 +59,32 @@ userRouter.put("/:id/updateUser", (req, res, next) => {
                 .then((updatedUser) => res.status(200).json(updatedUser))
                 .catch((err) => next(err));
             break;
+        case property === "correctAnswers":
+            User.findById(id)
+                .then((user) => {
+                    if (!(user.correctAnswers.questions.includes(value))) {
+                        return User.findByIdAndUpdate(id, {$set: {"correctAnswers.total": user.correctAnswers.total + 1}, $push: {"correctAnswers.questions": value}});
+                    }
+                })
+                .then(() => {
+                    return User.findById(id);
+                })
+                .then((updatedUser) => res.status(200).json(updatedUser))
+                .catch((err) => next(err));
+            break;
+        case property === "wrongAnswers":
+            User.findById(id)
+            .then((user) => {
+                if (!(user.wrongAnswers.questions.includes(value))) {
+                    return User.findByIdAndUpdate(id, {$set: {"wrongAnswers.total": user.wrongAnswers.total + 1}, $push: {"wrongAnswers.questions": value}});
+                }
+            })
+            .then(() => {
+                return User.findById(id);
+            })
+            .then((updatedUser) => res.status(200).json(updatedUser))
+            .catch((err) => next(err));
+        break;
         default:
             User.findByIdAndUpdate(id, { [property]: value })
                 .then(() => {
