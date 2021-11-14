@@ -84,9 +84,9 @@ userRouter.put("/:id/updateUser", (req, res, next) => {
             })
             .then((updatedUser) => res.status(200).json(updatedUser))
             .catch((err) => next(err));
-        break;
+            break;
         default:
-            User.findByIdAndUpdate(id, { [property]: value })
+            User.findByIdAndUpdate(id, {[property]: value })
                 .then(() => {
                     return User.findById(id);
                 })
